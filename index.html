@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="circle"></div>
+    <div class="triangle-right"></div>
+  <div class="col-md-6 col-md-offset-3 col-xs-12">
+    <!-- @ Start login box wrapper -->
+    <div class="blmd-wrapp">
+      <div class="blmd-color-conatiner ripple-effect-All"></div>
+      <div class="blmd-header-wrapp ">
+        <div class="blmd-switches">
+          <button class="btn btn-circle btn-lg btn-blmd ripple-effect btn-success blmd-switch-button">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+              <path fill="#fff" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+      <div class="blmd-continer">
+        <!-- @ Login form container -->
+        <form action="post" class="clearfix" id="login-form">
+          <h1>Login Page</h1>
+          <div class="col-md-12">
+
+            <div class="input-group blmd-form">
+              <div class="blmd-line">
+                <input type="text" name="username" autocomplete="off" id="username" class="form-control">
+                <label class="blmd-label">Email or Username</label>
+              </div>
+            </div>
+            <div class="input-group blmd-form">
+              <div class="blmd-line">
+                <input type="password" name="password" autocomplete="off" id="password" class="form-control">
+                <label class="blmd-label">Password</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 text-center">
+            <button type="button" class="btn btn-blmd ripple-effect btn-success btn-lg btn-block">Login</button>
+          </div>
+          <br />
+        </form>
+        <!-- @ Login form container -->
+        <form action="post" class="clearfix form-hidden" id="Register-form">
+          <h1>Register Page</h1>
+          <div class="col-md-12">
+
+            <div class="input-group blmd-form">
+              <div class="blmd-line">
+                <input type="text" name="username" autocomplete="off" id="username" class="form-control">
+                <label class="blmd-label">Email or Username</label>
+              </div>
+            </div>
+            <div class="input-group blmd-form">
+              <div class="blmd-line">
+                <input type="password" name="password" autocomplete="off" id="password" class="form-control">
+                <label class="blmd-label">Password</label>
+              </div>
+            </div>
+            <div class="input-group blmd-form">
+              <div class="blmd-line">
+                <input type="password" name="rePassword" autocomplete="off" id="password" class="form-control">
+                <label class="blmd-label">Repeat Password</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 text-center">
+            <button type="button" class="btn btn-blmd ripple-effect btn-warning btn-lg btn-block">Register</button>
+          </div>
+          <br />
+        </form>
+      </div>
+    </div>
+    <div class="signature" style="margin-left: -25px;margin-top: -25px;">
+    </div>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
